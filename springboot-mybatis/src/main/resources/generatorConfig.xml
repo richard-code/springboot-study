@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <properties resource="application-db.properties"/>
+    <classPathEntry
+            location="e:/apply/jar/mysql-connector-java-5.1.41.jar"/>
+    <context id="my" targetRuntime="MyBatis3">
+
+        <!--<jdbcConnection driverClass="${datasource.masterDriverClassName}"
+                        connectionURL="${datasource.masterUrl}"
+                        userId="${datasource.masterUser}"
+                        password="${datasource.masterPassword}"/>-->
+        <jdbcConnection driverClass="${datasource.clusterDriverClassName}"
+                        connectionURL="${datasource.clusterUrl}"
+                        userId="${datasource.clusterUser}"
+                        password="${datasource.clusterPassword}"/>
+
+        <!--<javaModelGenerator targetPackage="com.study.entity.master"
+                            targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>-->
+        <javaModelGenerator targetPackage="com.study.entity.cluster"
+                            targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!--<sqlMapGenerator targetPackage="mapper.master"
+                         targetProject="src/main/resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>-->
+        <sqlMapGenerator targetPackage="mapper.cluster"
+                         targetProject="src/main/resources">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <!--<javaClientGenerator targetPackage="com.study.mapper.master"
+                             targetProject="src/main/java"
+                             type="XMLMAPPER">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>-->
+        <javaClientGenerator targetPackage="com.study.mapper.cluster"
+                             targetProject="src/main/java"
+                             type="XMLMAPPER">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+
+        <!--<table tableName="T_FEE_AGTBILL" domainObjectName="FeeAgentBill"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"/>-->
+
+        <table tableName="tbcity" domainObjectName="City">
+        </table>
+
+    </context>
+</generatorConfiguration>
