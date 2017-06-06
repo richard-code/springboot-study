@@ -65,7 +65,6 @@ public class AbstractDatasourceConfig {
         AtomikosDataSourceBean dataSourceBean = new AtomikosDataSourceBean();
         dataSourceBean.setXaDataSource(xaDataSource);
         dataSourceBean.setUniqueResourceName(uniqueName);
-        dataSourceBean.setTestQuery("");
 
         return dataSourceBean;
     }

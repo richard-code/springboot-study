@@ -30,4 +30,10 @@ public class UserDaoImpl implements IUserDao {
     public void insertUser(User user) {
         userMapper.insert(user);
     }
+
+    @Override
+    public List<User> getAll() {
+        List<User> users = userMapper.selectByExample(new UserExample());
+        return users;
+    }
 }

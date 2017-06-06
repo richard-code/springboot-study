@@ -35,9 +35,9 @@ public class DemoController {
     private IDemoService demoService;
 
     @ApiOperation(value = "查询所有用户")
-    @GetMapping(value =  "getAll")
+    @GetMapping(value = "getAll")
     public List<User> getAll(){
-        return Lists.newArrayList(users.values());
+        return userService.getAll();
     }
 
     @ApiOperation(value = "增加一个用户")

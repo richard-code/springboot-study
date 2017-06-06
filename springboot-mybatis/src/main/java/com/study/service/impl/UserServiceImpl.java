@@ -7,6 +7,8 @@ import com.study.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by liqing on 2017/5/15 0015.
  */
@@ -23,5 +25,10 @@ public class UserServiceImpl implements IUserService {
     @Override
     public User findUserByName(String userName) {
         return userDao.findByName(userName);
+    }
+
+    @Override
+    public List<User> getAll() {
+        return userDao.getAll();
     }
 }

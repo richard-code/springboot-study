@@ -47,4 +47,9 @@ public class UserDaoImpl implements IUserDao {
     public void save(User user) {
         userRepository.save(user);
     }
+
+    @Override
+    public List<User> getAll() {
+        return userRepository.findAll();
+    }
 }

@@ -14,4 +14,6 @@ public interface IUserDao {
     List<User> findByCondition(User user);
 
     void save(User user);
+
+	List<User> getAll();
 }
