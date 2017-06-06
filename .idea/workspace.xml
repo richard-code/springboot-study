@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e476cc9-89a5-42c0-996a-09e6ee3d5d36" name="Default" comment="mybatis,hibernate整合项目">
+    <list default="true" id="7e476cc9-89a5-42c0-996a-09e6ee3d5d36" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/config/db/AbstractDatasourceConfig.java" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/config/db/AbstractDatasourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/controller/DemoController.java" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/controller/DemoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/dao/master/IUserDao.java" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/dao/master/IUserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/dao/master/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/dao/master/impl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/service/IUserService.java" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/service/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-hibernate/src/main/resources/application-db.properties" afterPath="$PROJECT_DIR$/springboot-hibernate/src/main/resources/application-db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/controller/DemoController.java" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/controller/DemoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/dao/master/IUserDao.java" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/dao/master/IUserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/dao/master/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/dao/master/impl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/service/IUserService.java" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/service/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application-db.properties" afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application-db.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot-hibernate/target/" />
     <ignored path="$PROJECT_DIR$/springboot-mybatis/target/" />
@@ -33,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
-              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
               <folding>
                 <element signature="e#1235#1236#0" expanded="true" />
                 <element signature="e#1278#1279#0" expanded="true" />
@@ -46,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#1235#1236#0" expanded="true" />
                 <element signature="e#1278#1279#0" expanded="true" />
@@ -55,11 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project_Default.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Project_Default.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -127,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/dao/master/impl/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#867#868#0" expanded="true" />
                 <element signature="e#906#907#0" expanded="true" />
@@ -164,6 +161,7 @@
         <option value="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/dao/master/IUserDao.java" />
         <option value="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/dao/master/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -253,6 +251,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="springboot-hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -708,7 +720,7 @@
       <updated>1496357157375</updated>
       <workItem from="1496357158829" duration="1819000" />
       <workItem from="1496360239939" duration="1047000" />
-      <workItem from="1496763044325" duration="2725000" />
+      <workItem from="1496763044325" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis,hibernate整合项目">
       <created>1496764342281</created>
@@ -717,11 +729,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496764342281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mybatis,hibernate整合项目">
+      <created>1496765803055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496765803055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5591000" />
+    <option name="totallyTimeSpent" value="6910000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -734,6 +753,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -755,7 +775,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33026114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33026114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -972,7 +992,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/dao/master/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#867#868#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
@@ -983,7 +1003,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-mybatis/src/main/java/com/study/controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="e#1235#1236#0" expanded="true" />
             <element signature="e#1278#1279#0" expanded="true" />
@@ -1034,7 +1054,7 @@
     <entry file="file://$PROJECT_DIR$/springboot-hibernate/src/main/java/com/study/controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#1235#1236#0" expanded="true" />
             <element signature="e#1278#1279#0" expanded="true" />
@@ -1042,7 +1062,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+    <entry file="file://$PROJECT_DIR$/tmlog4.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1050,10 +1070,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmlog4.log">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
         </state>
       </provider>
